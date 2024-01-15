@@ -3,12 +3,13 @@ import axios from "axios";
 
 export const token = localStorage.getItem("token");
 
-export const baseUrl = "https://dummyjson.com/";
-export const config = {
-  headers: {
-    Authorization: `Bearer ${token}`,
-  },
-};
+export const baseUrl =
+  "ttps://freeapi.miniprojectideas.com/api/amazon/RegisterCustomer";
+// export const config = {
+//   headers: {
+//     Authorization: `Bearer ${token}`,
+//   },
+// };
 export const LoginUser = async (data: {
   username: string;
   password: string;
